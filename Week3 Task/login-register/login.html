@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Register-Login Page</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="inner-box" id="card">
+          <div class="card-back">
+            <h2>LOGIN</h2>
+            <form action="success.html">
+              <input
+                type="email"
+                class="input-field"
+                placeholder="Email Id"
+                required
+              />
+              <input
+                type="password"
+                class="input-field"
+                placeholder="Enter Password"
+                pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"
+                required
+              />
+              <button type="submit" class="submit-btn">Login</button>
+              <input type="checkbox" class="check-box" /><span
+                >Remember Password</span
+              >
+            </form>
+            <button type="button" class="btn">
+              <a href="index.html"> New User</a>
+            </button>
+            <a href="">Forgot Password</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

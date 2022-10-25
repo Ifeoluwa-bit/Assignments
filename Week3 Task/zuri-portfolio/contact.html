@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--aos(animate on scroll) cdn file link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+    <!--swiper css file link-->
+    <link
+    rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+
+    <!--font awesome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!--custom css file link-->
+    <link rel="stylesheet" href="style.css">
+    <title>Olaniyan Taye Ifeoluwa Portfolio</title>
+</head>
+<body>
+    <div class="big-div">
+        <!--header section starts-->
+        <header>
+
+            <div class="header-1">
+                <a href="#" class="logo"> &lt;taye olaniyan/&gt; </a>
+
+                <div id="menu-bar" class="fas fa-bars"></div>
+                <nav class="my-nav">
+                    <a href="index.html">home</a>
+                    <a href="index.html">about</a>
+                    <a href="index.html">services</a>
+                    <a href="index.html">skills</a>
+                    <a href="pricing.html" target="_blank">pricing</a>
+                    <a href="project.html" target="_blank">project</a>
+                    <a href="contact.html" target="_blank">contact</a>
+                </nav>
+
+            </div>
+
+        </header>
+        <!--header section ends-->
+
+        <!--contact section starts-->
+
+    <main class="contact" id="contact">
+
+        <h1 class="heading">get in touch</h1>
+
+        <div class="box-container" data-aos="zoom-in">
+            <div class="box">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>where to find me</span>
+                <p>6, Ayejuyole Street <br> Oke-Ogba Street Akure, <br>Ondo State, Nigeria</p>
+            </div>
+
+            <div class="box">
+            <i class="fas fa-envelope"></i>
+            <span>email me at</span>
+            <p class="second">olaniyant65@gmail.com</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-phone-alt"></i>
+                <span>call me at</span>
+                <p>+234 8103 017811 </p>
+            </div>
+    
+        </div>
+
+        <h3 id="form-1">fill out the form to contact me directly</h3>
+
+        <form action="https://formspree.io/f/mbjwppoy" method="post" id="my-form" data-aos="flip-up">
+
+            <div class="inputBox" id="btn">
+
+                <div class="input-1">
+                    <div class="label"><label for="name">Name:</label></div>
+                    <div class="input-2"><input name="name" type="text" id="name" placeholder="name" required></div>
+                </div>
+
+                <div class="input-1">
+                    <div class="label"><label for="email">Email:</label></div>
+                    <div class="input-2"><input name="email" type="email" id="email" placeholder="email" required></div>
+                </div>
+
+            </div>
+
+            <div class="inputBox">
+
+                <div class="input-1">
+                    <div class="label"><label for="subject">what is your question about?</label></div>
+                    <div class="input-2">
+                        <input name="subject" type="text" id="subject" placeholder="subject" required>
+                    </div>
+                </div>
+
+                <div class="input-1">
+                    <div class="label"><label for="plan">plan(optional)</label></div>
+                    <div class="input-2"><select  name="plan" id="plan"  >
+                        <option value="select plan" disabled selected>select plan</option>
+                        <option value="basic">basic</option>
+                        <option value="standard">standard</option>
+                        <option value="premium">premium</option>
+                    </select></div>
+                </div>
+
+            </div>
+
+            <div class="input-1">
+                <div class="label"><label for="message">Message:</label></div>
+                <div class="input-2"><textarea name="message" id="message"  placeholder="message"></textarea></div>
+            </div>
+
+            <input type="submit" class="btn-1" value="send message">
+        </form>
+
+        <div id="status"></div>
+
+    </main>
+    <!--contact section ends-->
+
+
+    <!--footer section starts-->
+
+    <footer>
+        <p> &#169 2022. <br> designed by taye olaniyan </p>
+    </footer>
+    <!--footer section ends-->
+
+    <!--scroll top button-->
+    <a href="#home" class="fas fa-arrow-up" id="scroll-top"></a>
+
+
+
+
+    <!--aos js  file link-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+    <!--swiper script file link-->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!--custom js file link-->
+    <script src="script.js"></script>
+
+    <script>
+        AOS.init({
+            duration: 1200,
+            delay: 200
+        })
+    </script>
+</body>
+</html>
