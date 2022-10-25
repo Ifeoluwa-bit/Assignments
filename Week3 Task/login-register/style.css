@@ -19,9 +19,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url("bg4.jpg");
-  background-size: cover;
-  background-position: center center;
 }
 
 .card {
@@ -95,6 +92,11 @@ card-front.active {
   outline: none;
   text-align: center;
   color: #fff;
+}
+
+select.input-field {
+  color: #000;
+  height: 38px;
 }
 
 ::placeholder {

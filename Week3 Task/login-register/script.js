@@ -1,5 +1,5 @@
 var card = document.getElementById("card");
-var success = document.getElementByClassName("success");
+var cardSuccess = document.getElementByClassName("card-success");
 
 function openRegister() {
   card.style.transform = "rotateY(0deg)";
